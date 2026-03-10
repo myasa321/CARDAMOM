@@ -34,7 +34,8 @@ double psi_pi = fmax(psi_pi_interm, -30.12);
 /* We divided the psi_pi formulation by 10^6 to convert osmotic potential unit from Pa to MPa */
 
 /*summing two psi terms*/
-double psi_total = psi + psi_pi;
+//double psi_total = psi + psi_pi;
+double psi_total = psi;
 
 return psi_total;
 }
